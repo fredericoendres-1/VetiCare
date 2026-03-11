@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">VetiCare</string>
+
+    <string name="onboarding_title_1">Never miss your pet\'s\nmedication again</string>
+    <string name="onboarding_desc_1">Track medications, vaccines and vet visits in one\nplace.</string>
+    <string name="onboarding_btn_start">Get Started</string>
+
+    <string name="onboarding_title_2">Smart reminders</string>
+    <string name="onboarding_desc_2">Get notified when it\'s time to give medicine or\nvaccines.</string>
+    <string name="onboarding_btn_continue">Continue</string>
+
+    <string name="auth_title">All your pet health records\norganized</string>
+    <string name="auth_desc">Keep everything about your pet\'s health in one\nsimple app.</string>
+    <string name="auth_btn_google">Continue with Google</string>
+    <string name="auth_btn_apple">Continue with Apple</string>
+    <string name="auth_btn_email">Continue with Email</string>
+    <string name="add_pet_title">Add your pet</string>
+    <string name="add_pet_subtitle">Tell us about your furry friend</string>
+    <string name="add_pet_name_label">Pet Name</string>
+    <string name="add_pet_name_hint">e.g. Max</string>
+    <string name="add_pet_species_label">Species</string>
+    <string name="add_pet_species_dog">Dog</string>
+    <string name="add_pet_species_cat">Cat</string>
+    <string name="add_pet_species_other">Other</string>
+    <string name="add_pet_breed_label">Breed</string>
+    <string name="add_pet_breed_hint">e.g. Golden Retriever</string>
+    <string name="add_pet_birthdate_label">Birthdate</string>
+    <string name="add_pet_birthdate_hint">dd/mm/yyyy</string>
+    <string name="add_pet_weight_label">Weight (kg)</string>
+    <string name="add_pet_weight_hint">e.g. 22</string>
+    <string name="add_pet_btn_save">Save Pet 🐾</string>
+    <string name="home_app_title">VetiCare</string>
+    <string name="home_next_action_label">Next Action</string>
+    <string name="home_next_action_empty">No actions pending</string>
+
+    <string name="home_card_vaccine">Next Vaccine</string>
+    <string name="home_card_vet_visit">Next Vet Visit</string>
+    <string name="home_card_none_scheduled">None scheduled</string>
+    <string name="home_card_health_records">Health Records</string>
+    <string name="home_card_pet_profile">%1$s\'s Profile</string>
+    <string name="home_quick_actions_title">Quick Actions</string>
+    <string name="home_quick_action_weight">Weight</string>
+    <string name="home_quick_action_add_med">Add Med</string>
+    <string name="home_quick_action_history">History</string>
+    <string name="home_quick_action_vet_visit">Vet Visit</string>
+
+    <string name="home_ad_space_placeholder">Ad Space</string>
+
+    <string name="add_pet_cd_camera">Camera</string>
+    <string name="add_pet_cd_add_photo">Add Photo</string>
+    <string name="add_pet_cd_calendar">Calendar</string>
+    <string name="onboarding_cd_img_1">Dog smiling illustration</string>
+    <string name="onboarding_cd_img_2">Smartphone showing smart reminders</string>
+    <string name="auth_cd_img_3">Clipboard with organized pet records</string>
+    <string name="vaccines_title">Vaccines</string>
+    <string name="vet_visits_title">Vet Visits</string>
+
+    <string name="cd_back_button">Go back</string>
+    <string name="cd_add_button">Add new item</string>
+    <string name="cd_more_options">More options</string>
+    <string name="cd_vaccine_icon">Vaccine icon</string>
+
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="vaccine_subtitle_format">Given: %1$s • Due: %2$s</string>
+    <string name="vet_visit_subtitle_format">%1$s • %2$s</string>
+    <string name="cd_vet_visit_icon">Vet visit calendar icon</string>
+</resources>

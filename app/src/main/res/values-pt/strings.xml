@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">VetiCare</string>
+    <string name="onboarding_title_1">Nunca mais esqueça a\nmedicação do seu pet</string>
+    <string name="onboarding_desc_1">Acompanhe medicações, vacinas e visitas ao\nveterinário em um só lugar.</string>
+    <string name="onboarding_btn_start">Começar</string>
+</resources>
