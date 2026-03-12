@@ -36,13 +36,22 @@
     <string name="home_card_vaccine">Next Vaccine</string>
     <string name="home_card_vet_visit">Next Vet Visit</string>
     <string name="home_card_none_scheduled">None scheduled</string>
-    <string name="home_card_health_records">Health Records</string>
+    <string name="home_card_document_vault">Document Vault</string>
     <string name="home_card_pet_profile">%1$s\'s Profile</string>
+
+    <!-- Vitality -->
+    <string name="home_vitality_title">Daily Vitality</string>
+    <string name="home_vitality_energy">Energy</string>
+    <string name="home_vitality_appetite">Appetite</string>
+    <string name="home_vitality_mobility">Mobility</string>
+    <string name="home_vitality_log_btn">Log Vitality</string>
+
+    <!-- Quick Actions -->
     <string name="home_quick_actions_title">Quick Actions</string>
+    <string name="home_quick_action_medication">Medication</string>
+    <string name="home_quick_action_symptom">Symptom/Incident</string>
     <string name="home_quick_action_weight">Weight</string>
-    <string name="home_quick_action_add_med">Add Med</string>
-    <string name="home_quick_action_history">History</string>
-    <string name="home_quick_action_vet_visit">Vet Visit</string>
+    <string name="home_quick_action_document">Document</string>
 
     <string name="home_ad_space_placeholder">Ad Space</string>
 
@@ -66,4 +75,65 @@
     <string name="vaccine_subtitle_format">Given: %1$s • Due: %2$s</string>
     <string name="vet_visit_subtitle_format">%1$s • %2$s</string>
     <string name="cd_vet_visit_icon">Vet visit calendar icon</string>
+
+    <!-- My Pets -->
+    <string name="my_pets_title">My Pets</string>
+    <string name="my_pets_count_format">%1$d pets</string>
+    <string name="pet_tag_senior">Senior</string>
+    <string name="pet_subtitle_format">%1$s • %2$sy • %3$skg</string>
+    <string name="cd_pet_icon">Pet icon</string>
+    <string name="cd_pet_detail">View pet details</string>
+
+    <!-- Pet Detail -->
+    <string name="pet_detail_age_label">Age</string>
+    <string name="pet_detail_weight_label">Weight</string>
+    <string name="pet_detail_species_label">Species</string>
+    <string name="pet_detail_export_title">Export Professional PDF Report</string>
+    <string name="pet_detail_export_subtitle">Complete health records</string>
+    <string name="pet_detail_menu_medications">Medications</string>
+    <string name="pet_detail_menu_vaccines">Vaccines</string>
+    <string name="pet_detail_menu_vet_visits">Vet Visits</string>
+    <string name="pet_detail_menu_weight_history">Weight History</string>
+    <string name="pet_detail_menu_symptom_log">Symptom Log</string>
+    <string name="pet_detail_menu_document_vault">Document Vault</string>
+    <string name="pet_detail_menu_health_timeline">Health Timeline</string>
+    <string name="pet_detail_delete_btn">Delete record</string>
+
+    <!-- Add Medication -->
+    <string name="add_med_title_1">What medication?</string>
+    <string name="add_med_subtitle_1">Step 1 of 3 — Name &amp; dosage</string>
+    <string name="add_med_name_label">Medication Name</string>
+    <string name="add_med_name_hint">e.g. Amoxicillin</string>
+    <string name="add_med_dosage_label">Dosage</string>
+    <string name="add_med_dosage_hint">e.g. 250mg</string>
+    <string name="add_med_frequency_label">Frequency</string>
+    <string name="add_med_freq_once">Once per day</string>
+    <string name="add_med_freq_twice">Twice per day</string>
+    <string name="add_med_freq_three">Three times per day</string>
+    <string name="add_med_freq_custom">Custom</string>
+    <string name="add_med_btn_continue">Continue</string>
+
+    <string name="add_med_title_2">Schedule</string>
+    <string name="add_med_subtitle_2">Step 2 of 3 — Dates &amp; reminder</string>
+    <string name="add_med_start_date_label">Start Date</string>
+    <string name="add_med_end_date_label">End Date</string>
+    <string name="add_med_date_hint">dd/mm/yyyy</string>
+    <string name="add_med_reminder_label">Reminder Time</string>
+    <string name="add_med_reminder_hint">08:00</string>
+    <string name="add_med_critical_notif">Critical notifications</string>
+
+    <string name="add_med_title_3">Notes</string>
+    <string name="add_med_subtitle_3">Step 3 of 3 — Any extra info</string>
+    <string name="add_med_notes_hint">Any additional notes&#8230;</string>
+    <string name="add_med_btn_save">Save Medication 💊</string>
+
+    <!-- Medications List -->
+    <string name="medications_title_all">All Medications</string>
+    <string name="medications_title_active">Active Medications</string>
+    <string name="medications_title_inactive">Inactive Medications</string>
+    <string name="medications_filter_all">All</string>
+    <string name="medications_filter_active">Active</string>
+    <string name="medications_filter_inactive">Inactive</string>
+    <string name="cd_mark_taken">Mark as taken</string>
+    <string name="cd_pill_icon">Pill icon</string>
 </resources>

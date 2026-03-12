@@ -1,6 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">VetiCare</string>
-    <string name="onboarding_title_1">Nunca mais esqueça a\nmedicação do seu pet</string>
-    <string name="onboarding_desc_1">Acompanhe medicações, vacinas e visitas ao\nveterinário em um só lugar.</string>
-    <string name="onboarding_btn_start">Começar</string>
+
+    <string name="onboarding_title_1">Nunca más olvides la\nmedicación de tu mascota</string>
+    <string name="onboarding_desc_1">Registra medicamentos, vacunas y visitas al\nveterinário en un solo lugar.</string>
+    <string name="onboarding_btn_start">Empezar</string>
+
+    <string name="onboarding_title_2">Recordatorios inteligentes</string>
+    <string name="onboarding_desc_2">Recibe notificaciones cuando sea hora de dar\nmedicinas o vacunas.</string>
+    <string name="onboarding_btn_continue">Continuar</string>
+
+    <string name="auth_title">Todos los registros de salud\nde tu mascota organizados</string>
+    <string name="auth_desc">Mantén todo sobre la salud de tu mascota en una\naplicación simple.</string>
+    <string name="auth_btn_google">Continuar con Google</string>
+    <string name="auth_btn_apple">Continuar con Apple</string>
+    <string name="auth_btn_email">Continuar con Email</string>
+    <string name="add_pet_title">Añade a tu mascota</string>
+    <string name="add_pet_subtitle">Cuéntanos sobre tu amigo peludo</string>
+    <string name="add_pet_name_label">Nombre de la Mascota</string>
+    <string name="add_pet_name_hint">ej. Max</string>
+    <string name="add_pet_species_label">Especie</string>
+    <string name="add_pet_species_dog">Perro</string>
+    <string name="add_pet_species_cat">Gato</string>
+    <string name="add_pet_species_other">Otro</string>
+    <string name="add_pet_breed_label">Raza</string>
+    <string name="add_pet_breed_hint">ej. Golden Retriever</string>
+    <string name="add_pet_birthdate_label">Fecha de Nacimiento</string>
+    <string name="add_pet_birthdate_hint">dd/mm/aaaa</string>
+    <string name="add_pet_weight_label">Peso (kg)</string>
+    <string name="add_pet_weight_hint">ej. 22</string>
+    <string name="add_pet_btn_save">Guardar Mascota 🐾</string>
+    <string name="home_app_title">VetiCare</string>
+    <string name="home_next_action_label">Siguiente Acción</string>
+    <string name="home_next_action_empty">Sin acciones pendientes</string>
+
+    <string name="home_card_vaccine">Próxima Vacuna</string>
+    <string name="home_card_vet_visit">Próxima Visita al Vet</string>
+    <string name="home_card_none_scheduled">Ninguno programado</string>
+    <string name="home_card_document_vault">Bóveda de Documentos</string>
+    <string name="home_card_pet_profile">Perfil de %1$s</string>
+
+    <!-- Vitality -->
+    <string name="home_vitality_title">Vitalidad Diaria</string>
+    <string name="home_vitality_energy">Energía</string>
+    <string name="home_vitality_appetite">Apetito</string>
+    <string name="home_vitality_mobility">Movilidad</string>
+    <string name="home_vitality_log_btn">Registrar Vitalidad</string>
+
+    <!-- Quick Actions -->
+    <string name="home_quick_actions_title">Acciones Rápidas</string>
+    <string name="home_quick_action_medication">Medicación</string>
+    <string name="home_quick_action_symptom">Síntoma/Incidente</string>
+    <string name="home_quick_action_weight">Peso</string>
+    <string name="home_quick_action_document">Documento</string>
+
+    <string name="home_ad_space_placeholder">Espaço de Anúncio</string>
+
+    <string name="add_pet_cd_camera">Cámara</string>
+    <string name="add_pet_cd_add_photo">Añadir Foto</string>
+    <string name="add_pet_cd_calendar">Calendário</string>
+    <string name="onboarding_cd_img_1">Ilustración de perro sonriendo</string>
+    <string name="onboarding_cd_img_2">Smartphone mostrando recordatorios inteligentes</string>
+    <string name="auth_cd_img_3">Portapapeles con registros organizados de la mascota</string>
+    <string name="vaccines_title">Vacunas</string>
+    <string name="vet_visits_title">Visitas al Vet</string>
+
+    <string name="cd_back_button">Volver</string>
+    <string name="cd_add_button">Añadir nuevo elemento</string>
+    <string name="cd_more_options">Más opciones</string>
+    <string name="cd_vaccine_icon">Icono de vacuna</string>
+
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Eliminar</string>
+
+    <string name="vaccine_subtitle_format">Dada: %1$s • Próxima: %2$s</string>
+    <string name="vet_visit_subtitle_format">%1$s • %2$s</string>
+    <string name="cd_vet_visit_icon">Icono de calendario de visita al vet</string>
+
+    <!-- My Pets -->
+    <string name="my_pets_title">Mis Mascotas</string>
+    <string name="my_pets_count_format">%1$d mascotas</string>
+    <string name="pet_tag_senior">Anciano</string>
+    <string name="pet_subtitle_format">%1$s • %2$sa • %3$skg</string>
+    <string name="cd_pet_icon">Icono de mascota</string>
+    <string name="cd_pet_detail">Ver detalles de mascota</string>
+
+    <!-- Pet Detail -->
+    <string name="pet_detail_age_label">Edad</string>
+    <string name="pet_detail_weight_label">Peso</string>
+    <string name="pet_detail_species_label">Especie</string>
+    <string name="pet_detail_export_title">Exportar Informe PDF Profesional</string>
+    <string name="pet_detail_export_subtitle">Registros de salud completos</string>
+    <string name="pet_detail_menu_medications">Medicamentos</string>
+    <string name="pet_detail_menu_vaccines">Vacunas</string>
+    <string name="pet_detail_menu_vet_visits">Visitas al Vet</string>
+    <string name="pet_detail_menu_weight_history">Historial de Peso</string>
+    <string name="pet_detail_menu_symptom_log">Registro de Síntomas</string>
+    <string name="pet_detail_menu_document_vault">Bóveda de Documentos</string>
+    <string name="pet_detail_menu_health_timeline">Línea de Tiempo de Salud</string>
+    <string name="pet_detail_delete_btn">Eliminar registro</string>
+
+    <!-- Add Medication -->
+    <string name="add_med_title_1">¿Qué medicación?</string>
+    <string name="add_med_subtitle_1">Paso 1 de 3 — Nombre y dosis</string>
+    <string name="add_med_name_label">Nombre de la Medicación</string>
+    <string name="add_med_name_hint">ej. Amoxicilina</string>
+    <string name="add_med_dosage_label">Dosis</string>
+    <string name="add_med_dosage_hint">ej. 250mg</string>
+    <string name="add_med_frequency_label">Frecuencia</string>
+    <string name="add_med_freq_once">Una vez al día</string>
+    <string name="add_med_freq_twice">Dos veces al día</string>
+    <string name="add_med_freq_three">Tres veces al día</string>
+    <string name="add_med_freq_custom">Personalizado</string>
+    <string name="add_med_btn_continue">Continuar</string>
+
+    <string name="add_med_title_2">Horario</string>
+    <string name="add_med_subtitle_2">Paso 2 de 3 — Fechas y recordatorio</string>
+    <string name="add_med_start_date_label">Fecha de Inicio</string>
+    <string name="add_med_end_date_label">Fecha de Fin</string>
+    <string name="add_med_date_hint">dd/mm/aaaa</string>
+    <string name="add_med_reminder_label">Hora del Recordatorio</string>
+    <string name="add_med_reminder_hint">08:00</string>
+    <string name="add_med_critical_notif">Notificaciones críticas</string>
+
+    <string name="add_med_title_3">Notas</string>
+    <string name="add_med_subtitle_3">Paso 3 de 3 — Información extra</string>
+    <string name="add_med_notes_hint">Cualquier nota adicional&#8230;</string>
+    <string name="add_med_btn_save">Guardar Medicación 💊</string>
+
+    <!-- Medications List -->
+    <string name="medications_title_all">Todas las Medicaciones</string>
+    <string name="medications_title_active">Medicaciones Activas</string>
+    <string name="medications_title_inactive">Medicaciones Inactivas</string>
+    <string name="medications_filter_all">Todas</string>
+    <string name="medications_filter_active">Activas</string>
+    <string name="medications_filter_inactive">Inactivas</string>
+    <string name="cd_mark_taken">Marcar como tomado</string>
+    <string name="cd_pill_icon">Icono de pastilla</string>
 </resources>

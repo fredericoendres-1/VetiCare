@@ -14,7 +14,8 @@ data class HomeUiState(
     val selectedPetId: String? = null,
     val nextAction: String? = null, // null significa "No actions pending"
     val nextVaccineDate: String? = null,
-    val nextVetVisitDate: String? = null
+    val nextVetVisitDate: String? = null,
+    val hasLoggedVitalityToday: Boolean = false // Controla se a seção Daily Vitality deve aparecer
 ) {
     val selectedPetName: String
         get() = pets.find { it.id == selectedPetId }?.name ?: "Pet"

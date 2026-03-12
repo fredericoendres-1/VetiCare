@@ -10,6 +10,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
@@ -19,11 +20,13 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.frmedev.veticare.R
 import com.frmedev.veticare.ui.components.DashboardGridCard
+import com.frmedev.veticare.ui.components.DailyVitalityCard
 import com.frmedev.veticare.ui.components.QuickActionItem
 import com.frmedev.veticare.ui.theme.*
 
@@ -34,7 +37,8 @@ fun HomeScreen(
     onAddPetClick: () -> Unit,
     onSettingsClick: () -> Unit,
     onCardClick: (String) -> Unit,
-    onQuickActionClick: (String) -> Unit
+    onQuickActionClick: (String) -> Unit,
+    onLogVitality: (Int, Int, Int) -> Unit
 ) {
     Column(
         modifier = Modifier
@@ -163,11 +167,11 @@ fun HomeScreen(
             horizontalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             DashboardGridCard(
-                title = stringResource(id = R.string.home_card_health_records),
+                title = stringResource(id = R.string.home_card_document_vault),
                 subtitle = null,
-                icon = Icons.Default.List, // Stethoscope placeholder
+                icon = Icons.Default.Lock, // Shield/Lock placeholder
                 backgroundColor = Color(0xFFEFECE5), // Fundo levemente bege para quebrar o padrão
-                onClick = { onCardClick("HealthRecords") },
+                onClick = { onCardClick("DocumentVault") },
                 modifier = Modifier.weight(1f)
             )
             DashboardGridCard(
@@ -180,6 +184,14 @@ fun HomeScreen(
         }
 
         Spacer(modifier = Modifier.height(24.dp))
+
+        // --- Daily Vitality ---
+        if (!uiState.hasLoggedVitalityToday) {
+            DailyVitalityCard(
+                onLogVitality = onLogVitality
+            )
+            Spacer(modifier = Modifier.height(24.dp))
+        }
 
         // --- Quick Actions ---
         Text(
@@ -195,24 +207,28 @@ fun HomeScreen(
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
             QuickActionItem(
+                label = stringResource(id = R.string.home_quick_action_medication),
+                icon = Icons.Default.AddCircle, // Placeholder
+                onClick = { onQuickActionClick("Medication") },
+                modifier = Modifier.weight(1f)
+            )
+            QuickActionItem(
+                label = stringResource(id = R.string.home_quick_action_symptom),
+                icon = Icons.Default.Warning, // Placeholder
+                onClick = { onQuickActionClick("Symptom") },
+                modifier = Modifier.weight(1f)
+            )
+            QuickActionItem(
                 label = stringResource(id = R.string.home_quick_action_weight),
                 icon = Icons.Default.Info, // Placeholder
-                onClick = { onQuickActionClick("Weight") }
+                onClick = { onQuickActionClick("Weight") },
+                modifier = Modifier.weight(1f)
             )
             QuickActionItem(
-                label = stringResource(id = R.string.home_quick_action_add_med),
-                icon = Icons.Default.AddCircle, // Placeholder
-                onClick = { onQuickActionClick("AddMed") }
-            )
-            QuickActionItem(
-                label = stringResource(id = R.string.home_quick_action_history),
-                icon = Icons.Default.List, // Placeholder
-                onClick = { onQuickActionClick("History") }
-            )
-            QuickActionItem(
-                label = stringResource(id = R.string.home_quick_action_vet_visit),
-                icon = Icons.Default.DateRange, // Placeholder
-                onClick = { onQuickActionClick("VetVisit") }
+                label = stringResource(id = R.string.home_quick_action_document),
+                icon = Icons.AutoMirrored.Filled.List, // Placeholder
+                onClick = { onQuickActionClick("Document") },
+                modifier = Modifier.weight(1f)
             )
         }
 
@@ -238,8 +254,19 @@ fun HomeScreen(
 
 // --- Previews ---
 
-@Preview(name = "Light Mode", showBackground = true)
-@Preview(name = "Dark Mode", uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true)
+@Preview(
+    name = "Light Mode",
+    showBackground = true,
+    showSystemUi = true,
+    device = Devices.PIXEL_7
+)
+@Preview(
+    name = "Dark Mode",
+    uiMode = Configuration.UI_MODE_NIGHT_YES,
+    showBackground = true,
+    showSystemUi = true,
+    device = Devices.PIXEL_7
+)
 @Composable
 private fun HomeScreenPreview() {
     VetiCareTheme {
@@ -249,13 +276,15 @@ private fun HomeScreenPreview() {
                     PetMini(id = "1", name = "Fred"),
                     PetMini(id = "2", name = "Max")
                 ),
-                selectedPetId = "1"
+                selectedPetId = "1",
+                hasLoggedVitalityToday = false
             ),
             onPetSelected = {},
             onAddPetClick = {},
             onSettingsClick = {},
             onCardClick = {},
-            onQuickActionClick = {}
+            onQuickActionClick = {},
+            onLogVitality = { _, _, _ -> }
         )
     }
 }
