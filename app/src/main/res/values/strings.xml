@@ -136,4 +136,31 @@
     <string name="medications_filter_inactive">Inactive</string>
     <string name="cd_mark_taken">Mark as taken</string>
     <string name="cd_pill_icon">Pill icon</string>
+
+    <!-- Health Timeline -->
+    <string name="health_timeline_title">Health Timeline</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_premium_title">Go Premium</string>
+    <string name="settings_premium_subtitle">Unlimited pets, PDF reports, advanced reminders</string>
+    <string name="settings_premium_month">$4.99\n/month</string>
+    <string name="settings_premium_year">$29\n/year</string>
+    <string name="settings_lang_title">Language</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_lang_pt">Português</string>
+    <string name="settings_lang_es">Español</string>
+    <string name="settings_units_title">Units</string>
+    <string name="settings_units_metric">Metric (kg/g)</string>
+    <string name="settings_units_imperial">Imperial (lb/oz)</string>
+    <string name="settings_date_title">Date Format</string>
+    <string name="settings_date_format_1">DD/MM/YYYY</string>
+    <string name="settings_date_format_2">MM/DD/YYYY</string>
+    <string name="settings_notif_title">Notification Settings</string>
+    <string name="settings_export_title">Export Professional PDF Report</string>
+    <string name="settings_export_subtitle">Complete health records</string>
+    <string name="settings_help_title">Help / Support</string>
+
+    <!-- Weight History -->
+    <string name="weight_history_title">Weight History</string>
 </resources>

@@ -137,4 +137,31 @@
     <string name="medications_filter_inactive">Inactivas</string>
     <string name="cd_mark_taken">Marcar como tomado</string>
     <string name="cd_pill_icon">Icono de pastilla</string>
+
+    <!-- Health Timeline -->
+    <string name="health_timeline_title">Línea de Tiempo de Salud</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Configuración</string>
+    <string name="settings_premium_title">Hazte Premium</string>
+    <string name="settings_premium_subtitle">Mascotas ilimitadas, informes PDF, recordatorios avanzados</string>
+    <string name="settings_premium_month">$4.99\n/mes</string>
+    <string name="settings_premium_year">$29\n/año</string>
+    <string name="settings_lang_title">Idioma</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_lang_pt">Português</string>
+    <string name="settings_lang_es">Español</string>
+    <string name="settings_units_title">Unidades</string>
+    <string name="settings_units_metric">Métrico (kg/g)</string>
+    <string name="settings_units_imperial">Imperial (lb/oz)</string>
+    <string name="settings_date_title">Formato de Fecha</string>
+    <string name="settings_date_format_1">DD/MM/AAAA</string>
+    <string name="settings_date_format_2">MM/DD/AAAA</string>
+    <string name="settings_notif_title">Configuración de Notificaciones</string>
+    <string name="settings_export_title">Exportar Informe PDF Profesional</string>
+    <string name="settings_export_subtitle">Registros de salud completos</string>
+    <string name="settings_help_title">Ayuda / Soporte</string>
+
+    <!-- Weight History -->
+    <string name="weight_history_title">Historial de Peso</string>
 </resources>
