@@ -164,4 +164,54 @@
 
     <!-- Weight History -->
     <string name="weight_history_title">Histórico de Peso</string>
+
+    <!-- Document Vault -->
+    <string name="document_vault_title">Cofre de Documentos</string>
+    <string name="doc_upload_card_title">Categoria do Documento</string>
+    <string name="doc_upload_btn">Fazer Upload</string>
+
+    <string name="doc_category_prescription">Receita</string>
+    <string name="doc_category_exam">Exame</string>
+    <string name="doc_category_report">Laudo/Relatório</string>
+    <string name="doc_category_incident">Foto de Incidente</string>
+    <string name="doc_category_other">Outro</string>
+
+    <string name="doc_empty_title">Nenhum documento ainda</string>
+    <string name="doc_empty_subtitle">Faça upload de receitas, exames e relatórios</string>
+
+    <string name="doc_filter_date_hint">Data</string>
+    <string name="doc_filter_category_hint">Categoria</string>
+
+    <!-- Export Report -->
+    <string name="export_report_topbar_title">Exportar Relatório de Saúde</string>
+    <string name="export_report_main_title">Relatório Profissional PDF</string>
+    <string name="export_report_main_desc">Gere um relatório abrangente de saúde para\nseu veterinário ou registros pessoais.</string>
+
+    <string name="export_report_date_range_label">Selecione o período</string>
+    <string name="export_report_range_30_days">Últimos 30 dias</string>
+    <string name="export_report_range_6_months">Últimos 6 meses</string>
+    <string name="export_report_range_all_time">Todo o período</string>
+
+    <string name="export_report_include_label">O relatório irá incluir:</string>
+    <string name="export_report_include_meds">• Histórico de medicações</string>
+    <string name="export_report_include_vaccines">• Registros de vacinas</string>
+    <string name="export_report_include_visits">• Visitas ao veterinário</string>
+    <string name="export_report_include_weight">• Histórico de peso</string>
+    <string name="export_report_include_symptoms">• Sintomas e vitalidade</string>
+
+    <string name="export_report_generate_btn">Gerar PDF</string>
+
+    <!-- Health Log -->
+    <string name="health_log_title">Registro de Saúde</string>
+    <string name="health_log_category_label">Categoria</string>
+    <string name="health_log_cat_insect">Picada de Inseto</string>
+    <string name="health_log_cat_vomiting">Vômito</string>
+    <string name="health_log_cat_diarrhea">Diarreia</string>
+    <string name="health_log_cat_limping">Mancando</string>
+    <string name="health_log_cat_other">Outro</string>
+    <string name="health_log_alert_msg">Descreva o incidente em detalhes abaixo. Anexe uma\nfoto se possível.</string>
+    <string name="health_log_notes_label">Notas</string>
+    <string name="health_log_notes_hint">Descreva o que aconteceu em detalhes&#8230;</string>
+    <string name="health_log_btn_attach">Anexar Foto</string>
+    <string name="health_log_btn_save">Salvar Registro de Saúde</string>
 </resources>
